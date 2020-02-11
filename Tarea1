@@ -1,1 +1,30 @@
 Git!gitMATLAB
+
+clear; clc;
+Var1=2020;
+  input ( 'Hola que tal?' ); 
+   Var2= input ( 'En que año naciste?');
+ if (Var2<Var1) 
+   
+      Var3= Var1 - Var2;
+     
+else if (Var2>=Var1)
+     
+     Var3=0;
+    
+     var1=2020;
+  var2=input ( 'Puedes ingresar una fecha valida?');
+     Var3= Var1 - Var2;
+ 
+ 
+ 
+end
+   end
+    
+    fprintf( 'Tu tienes ')
+    disp(Var3)
+    fprintf ('años')
+
+  
+
+ 

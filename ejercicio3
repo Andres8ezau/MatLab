@@ -2,4 +2,4 @@ clc; clear;
 var1 = input ('Radio del circulo \n');
 VAR1= ((var1)*(2*pi));
 VAR2= ((var1^2)*(pi));
-fprintf( 'El perimetro es: %.2f cm^2 y el area %.2f cm^3 \n',VAR1,VAR2)
+fprintf( 'El perimetro es: %.2f cm y el area %.2f cm^2 \n',VAR1,VAR2)

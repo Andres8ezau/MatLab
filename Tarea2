@@ -1,0 +1,50 @@
+clear; clc;
+
+ Var4= input ( 'Hola que tal? Como te llamas?' ); 
+  Var5= input ('Cual es tu apellido?');
+   Var2= input ( 'cuantos a;os tienes?');
+   
+    VAR4= upper( Var4 );
+     VAR5= upper( Var5 );
+ disp(VAR5,' ',VAR4)
+   
+   
+     if (Var2<=3) 
+   
+         disp ('Eres un bebe!')
+     
+          else if (Var2>4) && (Var2<=12)
+     
+             disp ('Eres un infante')
+     
+               else if (Var2>12) && (Var2<=20)
+                 disp ('eres un adolecente')
+                 
+                 else if (Var2>20) && (Var2<=28)
+                  disp ('eres joven')
+    
+                    else if (Var2>28) && (Var2<=40)
+                     disp ('eres adulto')
+                    
+                      else if (Var2>40) && (Var2<=60)
+                       disp ('eres sugar mommy/daddy 7u7')
+  
+
+                        else if (Var2>60) && (Var2<=100)
+                         disp ('Chavito de la tercera edad')
+                      
+             else disp ('contemperantenos de chabelo')  
+end
+end 
+end 
+end 
+end
+end
+end
+fprintf( 'Gracias por participar c:')
+ 
+
+  
+
+ 
+

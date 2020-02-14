@@ -1,1 +1,12 @@
 
+clear; clc;
+
+ Var4= input ( 'Hola que tal? Como te llamas?','s'); 
+  Var5= input ('Cual es tu apellido?','s');
+   Var2= input ( 'En que año naciste?');
+   
+    VAR4 = upper( Var4 );
+     VAR5 = upper( Var5 );
+     VAR6=2020-Var2;
+     
+fprintf( 'Señor: %s %s su edad es %i\n',VAR4,VAR5,VAR6) 

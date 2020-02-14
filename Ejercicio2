@@ -1,0 +1,11 @@
+clear; clc;
+
+ Var1= input ( 'Dame el primer numero');
+  Var2= input ( 'Dame el segundo numero');
+   Var3= input ( 'Dame el tercer numero');
+    Var4=input ( 'Dame el cuarto numero');
+     Var5= input ( 'Dame el ultimo numero');
+     a=(Var1+Var2+Var3+Var4+Var5);
+     b=(Var1*Var2*Var3*Var4*Var5);
+fprintf ('El resultado de la suma es %i\n y de la multiplicacion es %i',a,b);
+ fprintf ('\n Gracias por participar')

@@ -1,0 +1,24 @@
+clc; clear;
+
+%Arrays%
+%Existen dos tipos: Unidimnensional (Vectores) o Bidimensional (matrices)%
+%Vector fila%
+A=[2016 2017 2018 2019 2020] %estos dos ejemplos son lo mismo%
+B=[2016,2017,2018,2019,2020]
+
+%Vector columna%
+C=[2016;2017;2018;2019;2020]
+
+C=[2016
+   2017
+   2018
+   2019
+   2020]
+%Si deseas crear un rango de valores y si la separacon numerica entre
+%valores es constante se pueda hacer uso de lo siguiente%
+Z=[a:b:c]
+Z=[2016:1:2020]
+Z=2016:1:2020
+%si desea crearun vector que tenga un numero dentro de valores especificos
+%dentro de un rango de una funcion *linspace*%
+X=linspace(1,20,15)

@@ -1,0 +1,11 @@
+  %Programa 1% 
+  clc;clear;
+  fprintf('Hola!\n')
+  
+  
+  Var1 = input (' Me puedes dar un numero porfavor?');
+   Var2 = input (' Me puedes dar otro numero porfavor?');
+   VarZ= Var1+Var2;
+   
+   fprintf('\n El resultado de la suma de los dos numeros es %.2f',VarZ);
+  

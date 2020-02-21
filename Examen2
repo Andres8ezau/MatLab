@@ -1,0 +1,25 @@
+  %Programa 2% 
+  clc;clear;
+  fprintf('Hola estudiante promedio!\n')
+  
+  
+  Var1 = input (' Cual fue tu calificacion de Matematicas?');
+  if Var1<=6
+    disp ('F')
+  endif
+    
+   Var2 = input (' Cual fue tu calificacion de Ingles?');
+    Var3 = input (' Cual fue tu calificacion de Programacion?');
+    if Var3>=10
+      disp ('Eres un crak')
+    
+      
+     Var4 = input (' Cual fue tu calificacion de Quimica?');
+      endif
+
+   Calificacion=(Var1+Var2+Var3+Var4)/4;
+   clc;
+ 
+   
+   fprintf('\n Tu calificacion es de: %.2f',Calificacion); 
+  

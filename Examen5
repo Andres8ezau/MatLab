@@ -1,0 +1,17 @@
+  %Programa 5%
+  clc;clear;
+  fprintf ('Empezemos con el primer corredor \n')
+   VarA= input('Cuantas horas tardo?');
+   VarB=input('Cuantos minutos tardo?');
+   VarC=input('Cuantos segundos tardo?');
+   clc;
+   fprintf ('Ahora con el segundo corredor \n')
+   VarX= input('Cuantas horas tardo?');
+   VarY=input('Cuantos minutos tardo?');
+   VarZ=input('Cuantos segundos tardo?');
+    clc;
+    Corredor1=(VarC+VarB*60+VarA*3600);
+    
+    Corredor2=(VarZ+VarY*60+VarX*3600);
+    fprintf ('El primer corredor duro: %.2f segundos \n y el segundo corredor duro %.2f segundos',Corredor1,Corredor2)
+   

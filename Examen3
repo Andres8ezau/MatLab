@@ -1,0 +1,8 @@
+ %Programa 3%
+  clc;clear;
+  Var1= input('Dame la altura del triangulo:');
+  Var2= input('Ahora la base:');
+  Var3= (sqrt((Var2^2)+(Var1^2)));
+  Perimetro=Var1+Var2+Var3;
+  Area= ((Var2*Var1)/2);
+  fprintf ('El area del triangulo es: %.2f cm^2 y su perimetro: %.2f cm',Area,Perimetro);

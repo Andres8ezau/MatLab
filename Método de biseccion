@@ -1,0 +1,71 @@
+% MÉTODO DE BISECCIÓN.
+%  Encontrar la raiz de la función f(x) = 2*x^5+x^2-10 con el método de
+%  la bisección.
+
+clc; % Limpia pantalla
+clear; % Limpia variables
+
+% vi --> Vector de numero de iteraciones
+% ve --> Vector de errores
+% vr --> Vector de raices obtenidas
+
+% Encontrando los límites del intervalo
+xi=-10;
+xs=xi+2;
+fx=(2*(xi^5))+(xi^2)-10;
+while (fx<0)
+    xi=xs;
+    xs=xi+2;
+    fx=(2*(xs^5))+(xs^2)-10;
+end
+% Cuando sale del ciclo, ya encontró el intervalo [xi,xs] dentro del cual
+% está la solución de la raiz
+
+%Método de bisección
+J=1; % Número de iteraciones
+xr=0;
+xr_ant=xr;
+perror=100;
+while (perror>=5) % Iteraciones para calcular xr
+    xr_ant=xr;
+    xr=(xi+xs)/2;
+    perror=abs(((xr+0.00001)-xr_ant)/(xr+0.00001))*100;
+    fprintf('%s %d \n %s %.5f \n %s %f \n\n','Iteración: ',J,' Raiz = ',xr,' %%Error: ',perror);
+    fxi=(2*(xi^5))+(xi^2)-10;
+    fxr=(2*(xr^5))+(xr^2)-10;
+    if (fxi*fxr>0)
+        xi=xr;
+    end
+    if (fxi*fxr<0)
+        xs=xr;
+    end
+    if (fxi*fxr==0)
+        J=21;
+    end
+    
+    vi(J,1)=J;
+    ve(J,1)=perror;
+    vr(J,1)=xr;
+    J=J+1;
+    
+end
+
+x=-10:1:4;
+fx=(2*x.^3)+(x.^2)-10;
+subplot(2,3,2)
+plot(x,fx);
+title('FUNCIÓN A RESOLVER','FontSize',16)
+xlabel('x','FontSize',14)
+ylabel('f(x)','FontSize',14)
+
+subplot(2,3,4)
+plot(vi,vr,'Marker','*')
+title('RAIZ APROXIMADA','FontSize',16)
+xlabel('Iteraciones','FontSize',14)
+ylabel('Raiz de la Función','FontSize',14)
+
+subplot(2,3,6)
+plot(vi,ve,'Marker','*')
+title('ERROR DE APROXIMACIÓN','FontSize',16)
+xlabel('Iteraciones','FontSize',14)
+ylabel('% Error','FontSize',14)

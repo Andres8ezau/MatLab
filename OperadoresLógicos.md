@@ -4,5 +4,5 @@
 | Operador      |  Definicion   |
 | ------------- |:-------------:| 
 | &&            | and           |
-| |             | or            |
+| * | *         | or            |
 | XOR    | Or Exclusivo  |

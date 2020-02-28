@@ -4,7 +4,7 @@
 | Operador      |  Definicion   |
 | ------------- |:-------------:| 
 | &&            | and           |
-|   '|'         | 'or'          |
+|     (|)       | (or)          |
 | XOR           | Or Exclusivo  |
 
 ##  Operadores de relacion

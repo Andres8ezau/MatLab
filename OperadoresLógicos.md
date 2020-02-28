@@ -1,2 +1,8 @@
 # Operadores Logicos 
-#### H4
+
+
+| Operador      |  Definicion   |
+| ------------- |:-------------:| 
+| &&            | and           |
+| |             | or            |
+| XOR    | Or Exclusivo  |

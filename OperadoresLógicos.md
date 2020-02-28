@@ -46,9 +46,9 @@ El ciclo *while* ejecuta repetidamente declaraciones mientras que una condición
 
 
   
-while (condición)
+     while (condición)
           <Declaración>
-       end;
+         end;
 
 
 

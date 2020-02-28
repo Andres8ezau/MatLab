@@ -25,13 +25,20 @@
    
    
     if (condicion)
-      Declaraciones 
+      Declaración 
         end;
-## Intrucccion _if-end-else_ 
+## Instrucción _if-end-else_ 
 Si la primera *condicion* se cumple se ejecuta la **Declaracion1**, si no, se ejecuta la **Declaracion2**   
         
-    if (condicion)
-      (Declaracion1)
+    if (condición)
+      (Declaración1)
        else
-        Declaracion2
+        Declaración2
        end;
+
+## instrucción _For_
+## Instrucción _While_
+
+
+   
+Powered with GitHub by @Andres8ezau :octocat:

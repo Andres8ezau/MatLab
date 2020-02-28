@@ -28,7 +28,7 @@
       Declaraciones 
         end;
 ## Intrucccion _if-end-else_ 
-sI LA CONDICON SE CUMPLE EJECTUTA LA PRIMERA DECLARACION, SI NO SE EJECUTA LA OTRA 
+Si la primera *condicion* se cumple se ejecuta la **Declaracion1**, si no, se ejecuta la **Declaracion2**   
         
     if (condicion)
       (Declaracion1)

@@ -1,4 +1,4 @@
-# Operadores Logicos 
+# __Operadores Lógicos__
 
 
 | Operador      |  Definicion   |
@@ -18,6 +18,8 @@
 | ==            | Igual a       |
 | ~=            | Diferente de |
 
+# __Ciclos en MATLAB__
+
 ## Instruccion _if-end_
 
    Si la ejecucion se cumple, se ejecutan las declaraciones hasta el *end* 
@@ -25,19 +27,29 @@
    
    
     if (condicion)
-      Declaración 
+      <Declaración>
         end;
 ## Instrucción _if-end-else_ 
 Si la primera *condicion* se cumple se ejecuta la **Declaracion1**, si no, se ejecuta la **Declaracion2**   
         
     if (condición)
-      (Declaración1)
+      <Declaración1>
        else
-        Declaración2
+        <Declaración2>
        end;
 
 ## instrucción _For_
+
 ## Instrucción _While_
+El ciclo *while* ejecuta repetidamente declaraciones mientras que una condición específica sea verdadera.
+ 
+
+
+  
+while (condición)
+          <Declaración>
+       end;
+
 
 
    

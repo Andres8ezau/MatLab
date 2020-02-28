@@ -27,3 +27,11 @@
     if (condicion)
       Declaraciones 
         end;
+## Intrucccion _if-end-else_ 
+sI LA CONDICON SE CUMPLE EJECTUTA LA PRIMERA DECLARACION, SI NO SE EJECUTA LA OTRA 
+        
+    if (condicion)
+      (Declaracion1)
+       else
+        Declaracion2
+       end;

@@ -40,9 +40,10 @@ Si la primera *condicion* se cumple se ejecuta la **Declaracion1**, si no, se ej
  _Se puede agregra otra condicion si se agrega **elseif**_
 ## instrucción _For_
   Este se ejecuta un cierto numero de veces asignadas      
+        
         for (condicion) 
            <declaracion>
-           end;
+          end;
 ## Instrucción _While_
 El ciclo *while* ejecuta repetidamente declaraciones mientras que una condición específica sea verdadera.
   

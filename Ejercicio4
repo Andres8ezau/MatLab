@@ -1,0 +1,20 @@
+clear; clc;
+
+
+ 
+   Var1= input ( 'Dame un numero: ');
+   
+   
+   
+   
+     if (rem(Var1,2)==0)  
+            
+         fprintf ('Tu numero es par: \n %i ',Var1);
+     
+                      
+     else 
+              fprintf ('Tu numero es impar: \n %i ',Var1);
+              
+
+end
+fprintf( ' \n Gracias por participar c: ')

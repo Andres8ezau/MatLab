@@ -4,7 +4,7 @@
 | Operador      |  Definicion   |
 | ------------- |:-------------:| 
 | &&            | and           |
-|     ( I )       | ( or)          |
+|     ( I )     | ( or)         |
 | XOR           | Or Exclusivo  |
 
 ##  Operadores de relacion
@@ -37,20 +37,22 @@ Si la primera *condicion* se cumple se ejecuta la **Declaracion1**, si no, se ej
        else
         <Declaración2>
        end;
-
+ _Se puede agregra otra condicion si se agrega **elseif**_
 ## instrucción _For_
-
+       
+        for (condicion) 
+           <declaracion>
+           end;
 ## Instrucción _While_
 El ciclo *while* ejecuta repetidamente declaraciones mientras que una condición específica sea verdadera.
  
-
 
   
      while (condición)
           <Declaración>
          end;
 
-
+##
 
    
 Powered with GitHub by @Andres8ezau :octocat:

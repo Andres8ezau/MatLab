@@ -1,0 +1,18 @@
+clear; clc;
+
+
+ 
+   Var1= input ( 'Dame la temperatura en ºC: ');
+   
+   
+   
+   
+     if (Var1<=18)  
+   
+         disp ('Hace frio')
+     
+                      
+             else disp ('Hace calor')  
+
+end
+fprintf( ' Gracias por participar c: ')

@@ -52,8 +52,10 @@ El ciclo *while* ejecuta repetidamente declaraciones mientras que una condición
          end;
 
 ## Break
-Termina la ejecución de un bucle for o while . Las instrucciones del bucle después de que la instrucción break no se ejecuten.
-En bucles anidados, break sólo sale del bucle en el que se produce. El control pasa a la instrucción que sigue al end de dicho bucle.
+Termina la ejecución de un bucle __for o while__ . Las instrucciones del bucle después de que la instrucción __break__ no se ejecuten.
+En bucles anidados, __break__ sólo sale del bucle en el que se produce. El control pasa a la instrucción que sigue al __end__ de dicho bucle.
+## Continue
+Se salta a la siguiente iteracion, cualquier declaracion remanente que se encuentre 
 
    
 Powered with GitHub by @Andres8ezau :octocat:

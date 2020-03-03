@@ -1,0 +1,8 @@
+X=input('Ingresa un valor: ');
+if (X> -1000) & (X<0)
+    fprintf('Tu numero es negativo \n')
+elseif (X>0) & (X<5)
+    fprintf ('Tu valor esta entre 0 y 5 \n')
+elseif (X>5) & (X<10)
+    fprintf ('Tu valor esta entre 5 y 10')
+end

@@ -1,0 +1,9 @@
+clear; clc;
+
+   Var1= input ( 'Dame un numero');   
+     if (Var1<0)    
+         disp ('Tu numero es negativo')    
+             else disp ('Tu numero Positivo')  
+
+end
+fprintf( 'Gracias por participar c:')

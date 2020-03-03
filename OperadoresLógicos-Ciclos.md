@@ -37,7 +37,18 @@ Si la primera *condicion* se cumple se ejecuta la **Declaracion1**, si no, se ej
        else
         <Declaración2>
        end;
- _Se puede agregra otra condicion si se agrega **elseif**_
+ _Se puede agregrar un numero n de condiciones si se agrega **elseif**_
+  
+     
+    if (condición)
+      <Declaración1>
+        elseif (condicion2)
+          <Declaración2>
+            else
+               <Declaracion3>
+        
+       end;
+ 
 ## instrucción _For_
   Este se ejecuta un cierto numero de veces asignadas      
         

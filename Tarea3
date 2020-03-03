@@ -1,0 +1,23 @@
+clear; clc;
+
+
+ 
+   Var1= input ( 'Dame tu sueldo mensual: ');
+   
+   
+   
+   
+     if (Var1 >= 4200)  
+            Var2=(Var1*0.1088);
+            Var1= Var1-Var2;
+         fprintf ('Tu dinero despues de impuestos es : \n %.3f ',Var1);
+     
+                      
+     else 
+              Var3=(Var1*0.1088);
+              Var1=Var1+Var3;
+              fprintf ('Tu dinero despues de impuestos es : \n %.3f ',Var1);
+              
+
+end
+fprintf( ' \n Gracias por participar c: ')

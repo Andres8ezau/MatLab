@@ -68,6 +68,25 @@ En bucles anidados, __break__ sólo sale del bucle en el que se produce. El cont
 ## Continue
 Se salta a la siguiente iteracion, cualquier declaracion remanente que se encuentre en el ciclo __for__ o __while__ no la ejecutara.
 
+##Sentencia switch-case
 
+Sirve para controlar el flujo del programa ya que permite un mecanismo
+para escoger y ejecutar instrucciones deseadas de entre varios grupos
+posibles.
+
+    
+      
+      switch expresiòn
+    %case valor 1  
+        %instrucciones
+    %case valor 2
+        %instrucciones
+    %case valor N
+
+end
+
+%La "expresiòn" es comparada con cada valor de uno de los casos, si
+%coincide ejecuta las instrucciones, una vez terminadas sale del switch, si
+%no conicide con ninguna termina la sentencia switch.
 
 Powered with GitHub by @Andres8ezau :octocat:

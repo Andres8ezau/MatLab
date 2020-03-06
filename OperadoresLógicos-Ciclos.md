@@ -68,5 +68,6 @@ En bucles anidados, __break__ sólo sale del bucle en el que se produce. El cont
 ## Continue
 Se salta a la siguiente iteracion, cualquier declaracion remanente que se encuentre en el ciclo __for__ o __while__ no la ejecutara.
 
-   
+
+
 Powered with GitHub by @Andres8ezau :octocat:

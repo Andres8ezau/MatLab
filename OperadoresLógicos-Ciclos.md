@@ -77,16 +77,17 @@ posibles.
     
       
       switch expresiòn
-    %case valor 1  
+    case valor 1  
         %instrucciones
-    %case valor 2
+    case valor 2
         %instrucciones
-    %case valor N
+    case valor N
+    end;
 
-end
 
-%La "expresiòn" es comparada con cada valor de uno de los casos, si
-%coincide ejecuta las instrucciones, una vez terminadas sale del switch, si
-%no conicide con ninguna termina la sentencia switch.
+
+La "expresiòn" es comparada con cada valor de uno de los casos, si
+coincide ejecuta las instrucciones, una vez terminadas sale del switch, si
+no conicide con ninguna termina la sentencia switch.
 
 Powered with GitHub by @Andres8ezau :octocat:

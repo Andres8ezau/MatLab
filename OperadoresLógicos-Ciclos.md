@@ -78,15 +78,15 @@ posibles.
       
       switch expresiòn
     case valor 1  
-        %instrucciones
+        instrucciones
     case valor 2
-        %instrucciones
+        instrucciones
     case valor N
     end;
 
 
 
-La "expresiòn" es comparada con cada valor de uno de los casos, si
+La _"expresiòn"_ es comparada con cada valor de uno de los casos, si
 coincide ejecuta las instrucciones, una vez terminadas sale del switch, si
 no conicide con ninguna termina la sentencia switch.
  ##Otherwise

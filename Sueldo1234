@@ -1,0 +1,47 @@
+clear; clc;
+Var1=40000;
+
+ 
+   fprintf('buenas trabajador promedio,  por favor marque la opción que se acomodé a su situación.\n')
+    fprintf (' 
+ 
+a. Si lleva más de 10 años en la empresa.\n
+
+b. Si lleva menos de 10 años pero más que 5.\n
+
+c. Si lleva menos de 5 años pero más que 3. \n
+
+d. Si lleva menos de 3 años.') 
+
+   switch Sueldo 
+
+   case 'a'
+ (Var2= Var1*0.10);
+    (Var1=Var1+Var2);
+fprintf ('su sueldo anual total es \.2f',Var1)
+
+   case 'b'
+  (Var2= Var1*0.07);
+  (Var1=Var1+Var2);
+  
+
+fprintf ('su sueldo anual total es \.2f',Var1)
+
+   case 'c'
+
+
+ (Var2= Var1*0.05);
+    (Var1=Var1+Var2);
+
+fprintf ('su sueldo anual total es \.2f',Var1)
+
+   case 'd'
+
+ (Var2= Var1*0.03);
+    (Var1=Var1+Var2);
+
+fprintf ('su sueldo anual total es \.2f',Var1)
+     
+
+end
+fprintf( ' \n Gracias por participar c: ')

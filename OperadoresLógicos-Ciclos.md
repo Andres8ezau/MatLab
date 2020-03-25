@@ -61,33 +61,34 @@ El ciclo *while* ejecuta repetidamente declaraciones mientras que una condición
      while (condición)
           <Declaración>
          end;
+## Instruccion _Switch_
+El comando *Switch* evalúa una expresión y elige ejecutar uno de varios grupos de instrucciones.
+La _"expresiòn"_ es comparada con cada valor de uno de los casos, si
+coincide ejecuta las instrucciones, una vez terminadas sale del switch, si
+no conicide con ninguna termina la sentencia switch.
 
+
+    switch switch_expression
+     case case_expression
+      <declaracion>
+     case case_expression
+      <declaracion>
+      ...
+     otherwise
+      <declaracion>
+     end 
+Case_expression puede ser un valor numerico. 
+Ejemplo (n=1), un caracter ( 'a', 'uno', 'azul')  
+Podemos usar varios sinonimos de una expresion *case {"case_expression1" "case_expression2" "case_expression3"}*
+    Ejemplo: 
+       
+       case {"Yes" "yes" "Y" "y"}
 ## Break
 Termina la ejecución de un bucle __for o while__ . Las instrucciones del bucle después de que la instrucción __break__ no se ejecuten.
 En bucles anidados, __break__ sólo sale del bucle en el que se produce. El control pasa a la instrucción que sigue al __end__ de dicho bucle.
 ## Continue
 Se salta a la siguiente iteracion, cualquier declaracion remanente que se encuentre en el ciclo __for__ o __while__ no la ejecutara.
 
-##Sentencia switch-case
 
-Sirve para controlar el flujo del programa ya que permite un mecanismo
-para escoger y ejecutar instrucciones deseadas de entre varios grupos
-posibles.
-
-    
-      
-      switch expresiòn
-    case valor 1  
-        instrucciones
-    case valor 2
-        instrucciones
-    case valor N
-    end;
-
-
-
-La _"expresiòn"_ es comparada con cada valor de uno de los casos, si
-coincide ejecuta las instrucciones, una vez terminadas sale del switch, si
-no conicide con ninguna termina la sentencia switch.
  ##Otherwise
 Powered with GitHub by @Andres8ezau :octocat:

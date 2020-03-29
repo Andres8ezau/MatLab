@@ -1,0 +1,32 @@
+clear; clc;
+ 
+   fprintf(' Buenas Estudiante promedio,  por favor marque la opción que se acomodé a su situación.\n ')
+    fprintf( 'a. Triangulo equilatero.\n b. Triangulo isoceles.\n c. Triangulo Escaleno.\n') 
+ 
+ Triangulo = input('Ingrese la opcion = ', 's');
+  
+  switch Triangulo
+
+ case 'a'
+   L=input('Ingrese solo un lado del triangulo en cm=');
+ L=L*3
+   
+fprintf ('el primetro es: %.2f cm',L)
+
+   case 'b'
+  B=input('Ingrese la base del triangulo en cm=');
+  L=input('Ingrese un lado del triangulo en cm=');
+ L=2*L+B
+   
+fprintf ('el primetro es: %.2f cm',L)
+   case 'c'
+  A=input('Ingrese el primer lado del triangulo en cm=');
+  B=input('Ingrese el segundo lado del triangulo en cm=');
+  C=input('Ingrese el tercer lado del triangulo en cm=');
+  L=A+B+C
+   
+fprintf ('el primetro es: %.2f cm',L)
+     
+
+end
+fprintf( ' \n Gracias por participar c: ')

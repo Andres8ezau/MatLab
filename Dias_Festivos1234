@@ -1,0 +1,48 @@
+clear; clc;
+
+
+ 
+   disp('Buenas,  por favor marque el mes que le gustaria consultar.')
+    disp(' Enero Febrero  Marzo Abril  Mayo Junio') 
+    disp('Julio Agosto Septiembre Octubre Noviembre Diciembre.')
+ Mes = input('Ingrese la opcion = ', 's');
+  
+  switch Mes
+
+   case { "Enero" "enero" "ENERO" }
+ disp(' 1: El primer día del 20XX celebra la llegada del Año Nuevo.')
+  disp ('7: Dia de reyes.')
+   case { "Febrero" "febrero" "FEBRERO" }
+  disp(' 5: El aniversario de la Constitución Mexicana .')
+  
+      case { "Marzo" "marzo" "MARZO" }
+ disp('16: Natalicio de Benito Juárez.')
+
+
+      case { "Abril" "abril" "ABRIL" }
+disp ('30: Dia del ni;o')
+ 
+    case { "Mayo" "mayo" "MAYO" }
+      disp('1: El Día del Trabajo .')
+      disp ('5: Dia de la batalla de Puebla')
+      disp('Dia del Maestro.')
+         case { "Junio" "junio" "JUNIO" }
+           disp('1: Dia de la marina.')
+           disp('5: Dia Mundial del Medio Ambiente.')
+case { "Julio" "julio" "JULIO" }
+  disp('1: Dia del Ingeniero.')
+  disp('12: Dia del abogado.')
+case { "Agosto" "agosto" "AGOSTO" }
+   disp('11: Dia del nutricionista')
+    
+     case { "Septiembre" "septiembre" "SEPTIEMBRE" }
+       disp ('16: El Día de la Independencia.')
+        case { "Octubre" "octubre" "OCTUBRE" }
+          disp('12: Dia de la raza.')
+         case { "Noviembre" "noviembre" "NOVIEMBRE" }
+            disp ('2: Dia de Muertos.')
+             disp(' 20: El dia de a revolucion mexicana.')
+                case { "Diciembre" "diciembre" "DICIEMBRE" }
+                  disp ('25:  Navidad')
+end
+fprintf( ' \n Gracias por participar c: ')

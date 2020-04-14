@@ -1,0 +1,18 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+NUM1 = input('ingresa el primer numero: ');
+NUM2 = input('ingresa el primer numero: ');
+NUM3 = input('ingresa el primer numero: ');
+ 
+if NUM1>NUM2 && NUM2>NUM3 
+ fprintf ('Los numeros estan en orden decreciente %.1f >%.1f >%.1f', NUM1,NUM2,NUM3)
+else 
+ disp('Los numeros no estan orden decreciente')
+ end
+
+
+   fprintf(' \n Gracias por participar c: ')
+ 
+ 

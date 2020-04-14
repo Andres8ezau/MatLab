@@ -1,0 +1,77 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+NUM = input('ingresa el numero que quieres convertir en sintaxis romana: ');
+  A='I';
+  B='V';
+  C='X';
+  D='L';
+  E='C';
+  F='D';
+  G='M';
+  X=0;
+  Y=0;
+if NUM<4000 
+  while NUM>=1000 
+    X= strcat(X, G)
+    NUM= NUM-1000;
+  end
+  
+    if NUM>=900
+      X= strcat(X, E, G )
+      NUM= NUM-900;
+  end
+       if NUM>=500
+         X=srtcat(X, F)
+         NUM= NUM-500;
+  end
+          if NUM>=400
+            X= strcat(X, E, F)
+            NUM=NUM-400;
+  end
+            while NUM>=100
+              X= strcat(X, E)
+              NUM= NUM-100;
+  end
+              if NUM>=90
+                X=strcat(X, C, E)
+                NUM= NUM-90;
+  end
+                if NUM>=50
+                  X= strcat(X, L)
+                  NUM= NUM-50;
+  end
+                  if NUM>=40 
+                    X= strcat(X, C, L)
+                 NUM= NUM-40;
+   end              
+                 while NUM>=10
+                   X= strcat(X, C)
+                   NUM= NUM-10;
+   end
+                   if NUM>=9
+                  X= strcat(X, A, C)
+                 NUM= NUM-9;
+   end
+                     if NUM>=5
+                       X= strcat(X, B)
+                       NUM= NUM-5;
+   end
+                       if NUM>=4 
+                         X= strcat(X, A, B)
+                          NUM= NUM-4;
+   end
+                          while NUM>=1
+                            X=strcat(X, A)
+                            NUM= NUM-1;
+end 
+              
+                  
+ 
+  ## Concatenar cadenas s = strcat(s1,s2)
+  
+ else 
+ disp('Solo se pueden coverteir numeros hasta 3999. Ingresa un numero valido')
+end
+fprintf(' \n Gracias por participar c: ')

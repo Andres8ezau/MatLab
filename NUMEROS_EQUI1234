@@ -1,0 +1,18 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+NUM1 = input('ingresa el primer numero: ');
+NUM2 = input('ingresa el primer numero: ');
+NUM3 = input('ingresa el primer numero: ');
+ SUM1=NUM1+NUM2;
+if SUM1==NUM3 
+ fprintf ('El tercer numero es igual a la suma del primero con el segundo: %i = %i + %i ',SUM1,NUM1,NUM2)
+else 
+ disp('Los suma de los  primeros numeros no corresponden al tercero')
+ end
+
+
+   fprintf(' \n Gracias por participar c: ')
+ 
+ 

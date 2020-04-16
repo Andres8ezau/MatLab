@@ -1,0 +1,44 @@
+clc; clear;
+G=0;
+disp ('Buenas, Trabajador promedio')
+disp ('A continuacion ')
+while G==0
+
+respuesta= input('Cuantas horas trabajo esta semana?: ');
+clc;
+
+if respuesta<=40
+  pago=respuesta*75;
+  fprintf('Tu salario es de: %.2f \n ',pago)
+elseif respuesta>40 && respuesta<=49
+  saldomin=40;
+  respuesta=respuesta-saldomin;
+  
+  pago=saldomin*75+respuesta*150;
+ 
+  fprintf('Tu salario es de: %.2f \n ',pago)
+else 
+  saldomin=40;
+  horasdob=9;
+  horastrip=respuesta-49;
+  
+  pago=saldomin*75+9*150+horastrip*225;
+  fprintf('Tu salario es de: %.2f \n ',pago)
+end
+disp('Que desea hacer?')
+X= input('1.Realizar otro calculo o 2.Terminar la ejecucion ');
+switch X
+  case 1
+  disp('Nueva consulta') 
+   G=0;
+    
+case 2
+    clc;
+  fprintf(' \n Fin del programa')
+  fprintf(' \n Gracias por participar c: ')
+        G=G+1;
+  otherwise
+        disp('Inserte una opcion valida')
+    
+end
+end

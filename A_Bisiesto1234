@@ -1,0 +1,16 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+Ano= input('Ingrese el a;o : ');
+Cuatro= mod(Ano, 4);
+cien= mod(Ano, 100);
+if Cuatro==0 && cien~=0
+fprintf('El a;o %i es bisiesto',Ano)
+else 
+ disp('No es bisiesto')
+ end
+
+
+   fprintf(' \n Gracias por participar c: ')
+ 

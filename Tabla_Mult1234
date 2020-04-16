@@ -1,0 +1,18 @@
+clear; clc;
+multi=0;
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+n= input('Ingrese el la tabla de multiplicar que desea ver : ');
+Y= input('ingrese hasta que numero quiere ver la tabla: ');
+
+  while multi~=Y
+  multi=multi+1;
+  res=multi*n;
+  fprintf('\n %i. %i x %i = %i', n, n, multi, res)
+ end
+
+
+   fprintf(' \n Gracias por participar c: ')
+ 
+ 
+ 

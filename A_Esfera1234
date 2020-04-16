@@ -1,0 +1,15 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+Ra= input('Ingrese el radio de la esfera a calcular en cm: ');
+if Ra>0
+  Res=4*pi*Ra^2;
+  fprintf('El area de la esfera es %.2f cm^2',Res)
+else
+  disp('Error, el radio debe ser mayor a cero')
+  end
+
+
+
+   fprintf(' \n Gracias por participar c: ')

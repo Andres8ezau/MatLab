@@ -1,0 +1,16 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+n= input('Ingrese un numero entero (positivo): ');
+p=n;
+C=0;
+
+  while (n>1)
+    n=n/10;
+    C=C+1;
+    end
+    fprintf('Hay %i digitos en %i',C, p)
+
+   fprintf(' \n Gracias por participar c: ')
+ 

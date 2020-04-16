@@ -1,0 +1,19 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+
+
+disp('En este programa se hara la sumatoria sucesiva de un numero n con su potencia')
+a= input('Puede proporcionar el limite de esta suma?: ');
+n=0;
+b=0;
+while a~=n
+  n=n+1;
+  b=b+1;
+Res=(1-a^(b))/1-a;
+
+end
+Res=(-1)*Res
+fprintf('La sumatoria total es %i', Res);
+   fprintf(' \n Gracias por participar c: ')

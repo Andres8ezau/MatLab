@@ -1,0 +1,13 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+
+
+disp('En este programa se hara la sumatoria sucesiva de un numero n')
+n= input('Hasta que numero desea sumar?: ');
+b=n;
+Res= (b*(n+1))/2;
+fprintf('La sumatoria total es %i', Res);
+   fprintf(' \n Gracias por participar c: ')
+ 

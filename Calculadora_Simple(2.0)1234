@@ -1,0 +1,62 @@
+clc; clear;
+G=0;
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+while G==0
+
+fprintf(' \n 1.Suma  2.Resta 3.Multiplicacion 4. Division 5.Salir del programa \n')
+respuesta= input('Que opcion desea realizar? (elija el numero correspondiente); ');
+
+
+
+clc;
+
+
+
+
+
+switch respuesta
+  case 1
+    UNO= input('Ingrese un numero : ');
+    DOS= input('Ingrese un numero : ');
+    TRES= input('Ingrese un numero : ');
+
+      res= UNO+DOS+TRES;
+      fprintf(' \n El resultado de la operacion es: %i \n' ,res) 
+      G=0;
+  case 2 
+   UNO= input('Ingrese un numero : ');
+   DOS= input('Ingrese un numero : ');
+   TRES= input('Ingrese un numero : ');
+ 
+    res= UNO-DOS-TRES;
+     %Esta restado arbitrariamente ya que no se especifico en el problema
+     fprintf('\n El resultado de la operacion es: %i \n' ,res) 
+      G=0;
+  case 3
+   UNO= input('Ingrese un numero : ');
+   DOS= input('Ingrese un numero : ');
+   TRES= input('Ingrese un numero : ');
+
+     res=UNO*DOS*TRES;
+     fprintf('\n El resultado de la operacion es: %i \n',res) 
+      G=0;
+  case 4
+  UNO= input('Ingrese un numero : ');
+  DOS= input('Ingrese un numero : ');
+  TRES= input('Ingrese un numero : ');
+%Esta dividido arbitrariamente ya que no se especifico en el problema
+     res=UNO+DOS/TRES;
+     fprintf('\n El resultado de la operacion es: %i \n ',res) 
+      G=0;
+  case 5
+
+  clc;
+  fprintf('Fin del programa')
+  fprintf(' \n Gracias por participar c: ')
+        G=G+1;
+  otherwise
+        disp('Inserte una opcion valida')
+end
+
+end

@@ -1,0 +1,75 @@
+clear; clc;
+
+disp ('Buenas, persona promedio')
+disp('A continuacion ')
+No_Art= input('Ingrese el numero de articulos a registar= ');
+if No_Art==10
+Art1 = input('Ingrese el articulo 1: ', 's');
+Precio1 = input('Ingrese el valor del articulo: ');
+Art2 = input('Ingrese el articulo 2: ','s');
+Precio2 = input('Ingrese el valor del articulo: ');
+Art3 = input('Ingrese el articulo 3: ','s');
+Precio3 = input('Ingrese el valor del articulo: ');
+Art4 = input('Ingrese el articulo 4: ','s');
+Precio4 = input('Ingrese el valor del articulo: ');
+Art5 = input('Ingrese el articulo 5: ','s');
+Precio5 = input('Ingrese el valor del articulo: ');
+Art6 = input('Ingrese el articulo 6: ','s');
+Precio6 = input('Ingrese el valor del articulo: ');
+Art7 = input('Ingrese el articulo 7: ','s');
+Precio7 = input('Ingrese el valor del articulo: ');
+Art8 = input('Ingrese el articulo 8: ','s');
+Precio8 = input('Ingrese el valor del articulo: ');
+Art9 = input('Ingrese el articulo 9: ','s');
+Precio9 = input('Ingrese el valor del articulo: ');
+Art10 = input('Ingrese el artiulo 10 ','s');
+Precio10 = input('Ingrese el valor del articulo: ');
+IVA_1= (Precio1*0.16);
+IVA_2= (Precio2*0.16);
+IVA_3= (Precio3*0.16);
+IVA_4= (Precio4*0.16);
+IVA_5= (Precio5*0.16);
+IVA_6= (Precio6*0.16);
+IVA_7= (Precio7*0.16);
+IVA_8= (Precio8*0.16);
+IVA_9= (Precio9*0.16);
+IVA_10= (Precio10*0.16);
+
+T_1= (IVA_1)+Precio1;
+T_2= (IVA_1)+Precio2;
+T_3= (IVA_1)+Precio3;
+T_4= (IVA_1)+Precio4;
+T_5= (IVA_1)+Precio5;
+T_6= (IVA_1)+Precio6;
+T_7= (IVA_1)+Precio7;
+T_8= (IVA_1)+Precio8;
+T_9= (IVA_1)+Precio9;
+T_10= (IVA_1)+Precio10;
+
+PrecioT= Precio1+Precio2+Precio3+Precio4+Precio5+Precio6+Precio7+Precio8+Precio9+Precio10;
+PrecioTIVA= T_1+T_2+T_3+T_4+T_5+T_6+T_7+T_8+T_9+T_10;
+
+clc
+
+fprintf('Articulo: %s Precio: %.2f IVA: %.2f Precio total+IVA: %.2f', Art1, Precio1, IVA_1, T_1) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+IVA: %.2f', Art2, Precio2, IVA_2, T_2) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art3, Precio3, IVA_3, T_3) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art4, Precio4, IVA_4, T_4) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art5, Precio5, IVA_5, T_5) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art6, Precio6, IVA_6, T_6) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art7, Precio7, IVA_7, T_7) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art8, Precio8, IVA_8, T_8) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art9, Precio9, IVA_9, T_9) 
+fprintf('\n Articulo: %s Precio: %.2f IVA: %.2f Precio total+ IVA: %.2f', Art10, Precio10, IVA_10, T_10) 
+fprintf('\n Precio total final: %.2f  ///////////// Precio total final+IVA: %.2f ', PrecioT,PrecioTIVA)
+
+ 
+else 
+ disp('La cantidad de articulos no se pueden procesar')
+ end
+
+
+   fprintf(' \n Gracias por participar c: ')
+ 
+ 
+ 
